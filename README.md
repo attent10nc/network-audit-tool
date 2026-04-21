@@ -1,17 +1,21 @@
-<br>
+<!-- ====== Banner Section ====== -->
 <p align="center">
-  <img src="banner.png" alt="ATTENTION Banner" width="80%" style="max-width:1200px; border-radius:12px;">
-</p>
-<br>
-<h1 align="center">ATTENTION</h1>
-<p align="center">Network Audit & Pentest Tool</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.10+-blue">
-  <img src="https://img.shields.io/badge/status-active-success">
-  <img src="https://img.shields.io/badge/license-MIT-green">
+  <img src="assets/banner.png" alt="ATTENTION Banner" width="80%" style="max-width:1200px; border-radius:16px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
 </p>
 
+<h1 align="center" style="margin-top: -12px;">ATTENTION</h1>
+<p align="center" style="font-size: 1.2rem; color: #c0c0ff;">Network Audit & Pentest Tool</p>
+
+<!-- ====== Badges Section ====== -->
+<p align="center">
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/python-3.10+-blue?logo=python&logoColor=white&style=for-the-badge" alt="Python Version">
+  </a>
+  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" alt="Status">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License">
+  </a>
+</p>
 Advanced Network Audit & Pentest Tool
 
 A powerful, multi-language (English/Russian) Python-based reconnaissance and network auditing tool. It acts as an intelligent wrapper around Nmap, automating complex scans, assessing network vulnerability, and generating clear, readable reports in the terminal and output files.
