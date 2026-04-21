@@ -1,3 +1,4 @@
+![img](banner.png)
 Advanced Network Audit & Pentest Tool
 
 A powerful, multi-language (English/Russian) Python-based reconnaissance and network auditing tool. It acts as an intelligent wrapper around Nmap, automating complex scans, assessing network vulnerability, and generating clear, readable reports in the terminal and output files.
