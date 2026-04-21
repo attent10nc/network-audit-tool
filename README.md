@@ -1,8 +1,8 @@
- Advanced Network Audit & Pentest Tool
+Advanced Network Audit & Pentest Tool
 
 A powerful, multi-language (English/Russian) Python-based reconnaissance and network auditing tool. It acts as an intelligent wrapper around Nmap, automating complex scans, assessing network vulnerability, and generating clear, readable reports in the terminal and output files.
 
- Features
+🌟 Features
 
 Multi-Language UI: Native support for English and Russian interfaces (--lang en/ru).
 
@@ -34,17 +34,23 @@ macOS: brew install nmap
 
 2. Setup the Repository
 
-# Optional: Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+Optional: Create a virtual environment
 
-# Install dependencies
+python -m venv venv
+# On Windows use:
+venv\Scripts\activate
+# On Linux/macOS use:
+source venv/bin/activate
+
+
+Install dependencies
+
 pip install -r requirements.txt
 
 
-Usage
+🚀 Usage
 
-1. Interactive Mode (Recommended)
+Interactive Mode (Recommended)
 
 Simply run the script without any arguments to enter the interactive console:
 
@@ -53,7 +59,7 @@ python nmap_scanner.py
 
 You will be prompted to select the language, target IP, scan mode, and file export options.
 
-2. Command-Line Interface (CLI)
+Command-Line Interface (CLI)
 
 Perfect for automation, scripting, or quick scans.
 
@@ -70,13 +76,17 @@ Options:
 
 CLI Examples:
 
-# Fast scan with Russian output
+Fast scan with Russian output
+
 python nmap_scanner.py 192.168.1.1 -m fast -l ru
 
-# Full pentest against a specific local server, saving reports to "audit_results"
+
+Full pentest against a specific local server, saving reports to "audit_results"
+
 python nmap_scanner.py 10.0.0.5 -m pentest -o audit_results
 
-Scan Modes Explained
+
+🛡️ Scan Modes Explained
 
 Fast: Top 100 ports + Version detection. Very fast.
 
@@ -90,6 +100,7 @@ Pentest: Active attack mode. Attempts brute-forcing default credentials and runn
 
 DoS Check: Checks service resistance against DoS scripts (--script dos).
 
-Contributing
+🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+We are waiting for your help and additions! Any feedback, code reviews, or suggestions are greatly appreciated.
