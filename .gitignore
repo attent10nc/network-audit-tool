@@ -1,34 +1,74 @@
-Виртуальное окружение Python (обязательно игнорируем, оно весит много)
+
 
 .venv/
 venv/
 env/
 ENV/
 
-Кэш Python
+
 
 pycache/
 *.py[cod]
 *$py.class
 
-Настройки среды PyCharm
+
 
 .idea/
 
-Настройки VS Code
 
 .vscode/
 
-Сгенерированные отчеты сканера (чтобы случайно не выложить свои результаты)
+
 
 *.json
 *.txt
 
-Но при этом мы НЕ игнорируем файл со списком библиотек
+
 
 !requirements.txt
 
-Логи и временные файлы
 
 *.log
 .DS_Store
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+env/
+*.swp
+
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+reports/
+*.log
+
+
+.DS_Store
+Thumbs.db
+
+
+*.key
+*.pem
+*.sqlite3
+
+
+reports/*.json
+reports/*.html
+reports/*.txt
+
+
+.venv/
+venv/
+.idea/
+__pycache__/
+*.py[cod]
