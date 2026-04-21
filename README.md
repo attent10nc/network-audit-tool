@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <img src="assets/banner.png" alt="ATTENTION Banner" width="80%" style="max-width:1200px; border-radius:12px;">
+  <img src="banner.png" alt="ATTENTION Banner" width="80%" style="max-width:1200px; border-radius:12px;">
 </p>
 <br>
 <h1 align="center">ATTENTION</h1>
