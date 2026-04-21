@@ -1,4 +1,17 @@
-![img](banner.png)
+<br>
+<p align="center">
+  <img src="assets/banner.png" alt="ATTENTION Banner" width="80%" style="max-width:1200px; border-radius:12px;">
+</p>
+<br>
+<h1 align="center">ATTENTION</h1>
+<p align="center">Network Audit & Pentest Tool</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.10+-blue">
+  <img src="https://img.shields.io/badge/status-active-success">
+  <img src="https://img.shields.io/badge/license-MIT-green">
+</p>
+
 Advanced Network Audit & Pentest Tool
 
 A powerful, multi-language (English/Russian) Python-based reconnaissance and network auditing tool. It acts as an intelligent wrapper around Nmap, automating complex scans, assessing network vulnerability, and generating clear, readable reports in the terminal and output files.
